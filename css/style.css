@@ -1,0 +1,143 @@
+
+body {
+	background-color: #fffffe;
+}
+
+/* .navbar-brand {
+	display: inline-flex;
+} */
+
+/* .navbar-brand > img {
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+} */
+
+/* .mynav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+} */
+.tuond {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+#title > .container {
+	padding-top: 2rem;
+}
+
+.gradient-background {
+	position: relative;
+	z-index: 9;
+	background: linear-gradient(300deg, #7885c8, #1f38b6, #ab273b);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.icon-square {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 0.75rem;
+	background-color: #b8c1ec;
+	color: #232946;
+}
+
+.card-height {
+	height: 16rem;
+}
+
+#features h3, p {
+	color: #232946;
+}
+
+.profile-img {
+	border-radius: 50%;
+	height: 100px;
+}
+
+#founder {
+	background-color: #d4d8f0;
+}
+
+
+#founder h3, p {
+	color: #232946;
+}
+
+.img-partner {
+	height: 2rem;
+	width: auto;
+}
+
+#pricing h1, h2, h4, p, small, li {
+	color: #232946;
+}
+
+.heading-color {
+	background-color: #232946;
+}
+
+#pricing .card-body .btn-lg {
+	background-color: #fffffe;
+	color: #232946;
+	border-color: #232946;
+}
+
+#pricing .card-body .btn-lg:hover {
+	background-color: #232946;
+	color: #fffffe;
+}
+
+#contact {
+	background-color: #232946;
+	color: #b8c1ec;
+}
+
+@media (max-width: 992px) {
+	/* .navbar {
+		background-color: #1f38b6;
+		border-radius: 0 0 10px 10px;
+		-webkit-border-radius: 0 0 10px 10px;
+		-moz-border-radius: 0 0 10px 10px;
+		-ms-border-radius: 0 0 10px 10px;
+		-o-border-radius: 0 0 10px 10px;
+	} */
+	.sidebar {
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(10px);
+	}
+}
+
+@media (max-width: 992px) {
+	.gradient-background {
+		height: auto;
+		padding-bottom: 4rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+
